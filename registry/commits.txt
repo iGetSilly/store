@@ -1,0 +1,6 @@
+Dia 1 - 08/03/2023 
+
+criado componente header, scss colors and typography
+
+Dia 2 - 09/03/2023
+

@@ -1,3 +1,45 @@
 @import "scss/colors";
-@import "scss/layout";
 @import "scss/typography";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, $white-dark, $white-light);
+    background-image: url('../../public/img/Vector.svg');
+    background-repeat: no-repeat;
+    background-size: 50vh;
+    background-position: right bottom;
+
+    height: 100vh;
+}
+
+// header section
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background: linear-gradient(to right, $red, $red-light);
+
+    width: 100%;
+    height: 16vh;
+    border-radius: 00px 000px 250px 250px;
+
+    padding: 25px 150px;
+    overflow: hidden;
+}
+
+
+
+// Main section
+
+
+
+
+
+@import "scss/layout";
