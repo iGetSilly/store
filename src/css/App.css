@@ -1,3 +1,29 @@
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 150px;
+  max-width: 1520px;
+  min-width: 1200px;
+  height: 24vh;
+  border-radius: 250px;
+  background-color: #A92727;
+  overflow: hidden;
+  cursor: grab;
+}
+
+.inner {
+  display: flex;
+}
+
+.item {
+  padding: 0 8px;
+}
+
+.item img {
+  height: 16vh;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -6,11 +32,16 @@
 
 body {
   background: linear-gradient(to right, #C2CACA, #E2EBE9);
-  background-image: url("../../public/img/Vector.svg");
+  background-image: url("../images/Vector.svg");
   background-repeat: no-repeat;
   background-size: 50vh;
   background-position: right bottom;
   height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: center;
 }
 
 .navBar {
@@ -27,6 +58,7 @@ body {
 
 header {
   min-width: 1200px;
+  max-width: 1520px;
   margin: 0 auto;
 }
 

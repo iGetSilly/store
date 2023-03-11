@@ -1,5 +1,6 @@
 @import "scss/colors";
 @import "scss/typography";
+@import "scss/carrousel";
 
 * {
     padding: 0;
@@ -9,12 +10,17 @@
 
 body {
     background: linear-gradient(to right, $white-dark, $white-light);
-    background-image: url('../../public/img/Vector.svg');
+    background-image: url('../images/Vector.svg');
     background-repeat: no-repeat;
     background-size: 50vh;
     background-position: right bottom;
 
     height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
 }
 
 // header section

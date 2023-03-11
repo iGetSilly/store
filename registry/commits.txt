@@ -4,3 +4,10 @@ criado componente header, scss colors and typography
 
 Dia 2 - 09/03/2023
 
+none
+
+Dia 3 - 10/03/2023
+
+Criado o header
+
+

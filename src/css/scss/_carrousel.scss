@@ -1,0 +1,29 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 100px 150px;
+    max-width: 1520px;
+    min-width: 1200px;
+    height: 24vh;
+    border-radius: 250px;
+
+    background-color: $red;
+
+    overflow: hidden;
+
+    cursor: grab;
+}
+
+.inner {
+    display: flex;
+}
+
+.item {
+    padding: 0 8px;
+}
+
+.item img {
+    height: 16vh;
+}
