@@ -1,6 +1,4 @@
 import MainHeader from './components/Headers';
-import Carousel from './components/Carrousel';
-import CarouselItem from './components/CarrouselItem';
 import { motion } from 'framer-motion'
 import {useState, useEffect, useRef} from 'react'
 
