@@ -1,11 +1,14 @@
 @import "scss/colors";
 @import "scss/typography";
 @import "scss/carrousel";
+@import "scss/benefits";
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -21,6 +24,8 @@ body {
 main {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 // header section
@@ -38,6 +43,8 @@ main {
 
     padding: 25px 150px;
     overflow: hidden;
+
+    position: sticky
 }
 
 
